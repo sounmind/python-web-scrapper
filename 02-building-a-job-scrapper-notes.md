@@ -1,0 +1,3 @@
+# Building a < something on the web > scrapper
+## Main function of this scrapper is ... 
+> 복수 개의 페이지의 특정 검색 결과 리스트를 엑셀 스프레드시트에 하나하나 수집하여 나열한다.
