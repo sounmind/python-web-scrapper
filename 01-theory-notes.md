@@ -64,3 +64,13 @@
                   print(day)
       ```
       - 문자열도 하나의 시퀀스 데이터 타입이므로 반복문으로 하나씩 출력할 수 있다.
+   8. 모듈: 기능의 집합
+      - `import 모듈_이름`을 소스코드 상단에 적어 모듈을 불러들일 수 있다.
+      - `from 모듈_이름 import 기능_이름, 다른_기능_이름` 모듈 전체의 내용을 가져올 필요 없이 모듈의 특정 기능(여러 개도 가능)만 불러들일 수 있다.
+      - 기능을 import 할 때 `as`을 이용하여 특정 이름을 지정하여 소스코드에서 사용할 수 있다.
+      ```python
+      from math import fsum as custom_function_name
+      print(custom_function_name([1, 2, 3]))
+      ```
+      - 다른 파일(.py)에서 정의된 함수를 `from python_file_name import custom_function as some_name`처럼 작성하여 import할 수도 있다.
+      - (제시된 질문) print 함수는 어떻게 인자를 무한대로 받을 수 있는가?
