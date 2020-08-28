@@ -1,8 +1,4 @@
 # python web scrapper challenge for 2 weeks
-## day 1
-## day 2
-## day 3
-
 ## day 4
 1. 과제 주제:
 2. 조건:
@@ -56,7 +52,14 @@ while(True):
   if answer == 0:
     break
 ```
-4. 참고
+
+4. 정답
+- 내가 놓친 것
+  - 재시작 부분에서 입력을 모두 lower()로 소문자화 하는 것.
+  - 유효 url 확인할 때 문장에 '.'만 있으면 된다고 한 것. (모든 것이 .com 으로 끝나지 않는다) 
+  - main()을 사용하기
+
+5. 참고
    - [보일러플레이트(Bolilerplate code)?](https://en.wikipedia.org/wiki/Boilerplate_code)
    - [여러 개 사용자 입력 처리](https://gosmcom.tistory.com/108)
    - [파이썬 예외 처리](https://wikidocs.net/30)
